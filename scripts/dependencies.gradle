@@ -1,0 +1,42 @@
+ext {
+
+    kotlin_version = '1.6.21'
+    core_ktx = '1.9.0'
+    app_compat = '1.6.0'
+    material = '1.8.0'
+    constraint_layout = '2.1.4'
+    navigation_ktx = '2.5.3'
+    fragment_ktx = '1.5.5'
+    lifecycle_ktx = '2.5.1'
+    gson = '2.8.9'
+    retrofit_version = '2.9.0'
+    okhttp_version = '4.10.0'
+    okhttp_interceptor = '4.4.1'
+    glide_version = '4.12.0'
+    coroutines_version = '1.6.4'
+    hilt_version = '2.44'
+
+    libraries = [
+            ktxVersion           : "org.jetbrains.kotlin:kotlin-stdlib:" + kotlin_version,
+            coreKtx              : "androidx.core:core-ktx:" + core_ktx,
+            appCompat            : "androidx.appcompat:appcompat:" + app_compat,
+            materialComponent    : "com.google.android.material:material:" + material,
+            constraintLayout     : "androidx.constraintlayout:constraintlayout:" + constraint_layout,
+            navigationFragmentKtx: "androidx.navigation:navigation-fragment-ktx:" + navigation_ktx,
+            navigationUIKtx      : "androidx.navigation:navigation-ui-ktx:" + navigation_ktx,
+            fragmentKtx          : "androidx.fragment:fragment-ktx:" + fragment_ktx,
+            liveDataKtx          : "androidx.lifecycle:lifecycle-livedata-ktx:" + lifecycle_ktx,
+            viewmodelKtx         : "androidx.lifecycle:lifecycle-viewmodel-ktx:" + lifecycle_ktx,
+            gsonLibrary          : "com.google.code.gson:gson:" + gson,
+            retrofit             : "com.squareup.retrofit2:retrofit:" + retrofit_version,
+            retrofitConverter    : "com.squareup.retrofit2:converter-gson:" + retrofit_version,
+            okhttp               : "com.squareup.okhttp3:okhttp:" + okhttp_version,
+            okhttpInterceptor    : "com.squareup.okhttp3:logging-interceptor:" + okhttp_interceptor,
+            okhttpurl            : "com.squareup.okhttp3:okhttp-urlconnection:" + okhttp_interceptor,
+            glide                : "com.github.bumptech.glide:glide:" + glide_version,
+            coroutines           : "org.jetbrains.kotlinx:kotlinx-coroutines-android:" + coroutines_version,
+            hilt             : "com.google.dagger:hilt-android:" + hilt_version,
+
+
+    ]
+}
